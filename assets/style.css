@@ -1,0 +1,100 @@
+	body{
+	background-color: #555;
+}
+#particle-js{
+	height: 50%;
+
+}
+table{
+	margin-top: 18px;
+	text-align: center;
+	margin-left: 1px;	
+}
+h1{
+	font-family: sans-serif;
+	font-weight: bold;
+	margin-top: 2px;
+
+}
+.tmbh{
+	margin-left: 25px;
+	text-decoration: none;
+	border: 2px solid skyblue;
+	padding: 5px;
+	border-radius: 5px;
+}
+.tmbh:hover{
+	margin-left: 25px;
+	text-decoration: none;
+	border: 2px solid skyblue;
+	padding: 5px;
+	border-radius: 5px;
+	margin-top: -10px;
+	background-color: skyblue;
+}
+
+.container{
+	width: 1200px;
+	padding: 20px;
+	margin-top: 75px;
+	height: auto;
+	background-color: white;
+	
+}
+.sear{
+	margin-left: 1000px;
+}
+.navbar{
+	margin-top: -78px;
+	width: 100%;
+	height: 80px;
+	background-color: skyblue;
+	position: fixed ;
+}
+.ser{
+	height: 40px;
+	border-radius: 30px;
+	border: 1px solid black;
+	width: 41px;
+	outline: none;
+	text-align: center;
+	
+}
+.ser:focus{
+	height: 40px;
+	border-radius: 30px;
+	border: 1px solid salmon;	
+	width: 250px;
+	transition: 1s;
+	animation: ser 0.5s infinite;
+	box-shadow: 10 5 5 5 black;
+}
+
+@keyframes ser{
+	0%{
+		border : 2px solid red;
+	}
+	50%{
+		border: 2px solid green;
+	}
+	100%{
+		border: 2px solid blue;
+	}
+}
+.cari{
+	
+	border: 0;
+	background: none;
+	text-align: center;
+	border: 2px solid #2ecc71;
+	width: 50px;
+	outline: none;
+	color: white;
+	border-radius: 24px;
+	transition: 0.25s; 
+	cursor: pointer;
+	}
+.cari:hover{
+	background: #2ecc71;
+	}
+
